@@ -5,12 +5,12 @@ import java.util.Date;
 public class Person {
 
 
-	String names;
-	String surname;
-	Date  dob;
-	Address address;
-	String anotherField;
-	String fieldBranch1;
+	private String names;
+	private String surname;
+	private Date  dob;
+	private Address address;
+	private String anotherField;
+	private String fieldBranch1;
 
 	public Person(String name,String surname,Date dob,Address address,String anotherField){
 	
