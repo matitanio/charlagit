@@ -9,8 +9,6 @@ public class Person {
 	private String surname;
 	private Date  dob;
 	private Address address;
-	private String anotherField;
-	private String fieldBranch1;
 
 	public Person(String name,String surname,Date dob,Address address,String anotherField){
 	
@@ -18,11 +16,6 @@ public class Person {
 		this.surname = surname;
 		this.dob = dob;
 		this.address = address;
-
-		this.anotherField = anotherField;	
-		int a = 1;
-
-		this.fieldBranch1 = null;
 
 	}
 
